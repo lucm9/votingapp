@@ -7,10 +7,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $password = $_POST['password'];
 
     // Connect to the database
-    $host = "INSERT_DB_HOST";
-    $dbname = "INSERT_DB_NAME";
-    $username = "INSERT_DB_USERNAME";
-    $dbPassword = "INSERT_DB_PASSWORD"; 
+    $host = "INSERT_DB_HOST"; // Replace with DB host
+    $dbname = "INSERT_DB_NAME"; // Replace with DB name (you need to create the database within the databse first)
+    $username = "INSERT_DB_USERNAME"; // Replace with DB username
+    $dbPassword = "INSERT_DB_PASSWORD"; // Replace with DB Password
 
     try {
         $dbh = new PDO("mysql:host=$host;dbname=$dbname", $username, $dbPassword);
