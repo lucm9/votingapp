@@ -110,11 +110,13 @@ CREATE TABLE candidates (
 
 ### Insert the name of the first candidate
 ```sh
+## edit the candidate name
 INSERT INTO candidates (name, votes) VALUES ('INSERT_1ST_CANDIDATE_NAME', 0);
 ```
 
 ### Insert the name of the second candidate 
 ```sh
+## edit the candidate name
 INSERT INTO candidates (name, votes) VALUES ('INSERT_2ND_CANDIDATE_NAME', 0);
 
 ```
