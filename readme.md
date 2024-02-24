@@ -103,8 +103,8 @@ CREATE TABLE users (
 ```sh
 CREATE TABLE candidates (
     id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
-  	name varchar(255) NOT NULL,
-  	votes INT DEFAULT '0'
+    name varchar(255) NOT NULL,
+    votes INT DEFAULT '0'
 );
 ```
 
