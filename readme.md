@@ -102,7 +102,7 @@ CREATE TABLE users (
 ### Create a table named candidates to add the voting candidates
 ```sh
 CREATE TABLE candidates (
-id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
   	name varchar(255) NOT NULL,
   	votes INT DEFAULT '0'
 );
