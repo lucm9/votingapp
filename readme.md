@@ -25,7 +25,7 @@ cd votingapp/
 vi setup.sql
 ```
 
-### Edit the setup.sh and change <db_endpoint> and <dbusername> 
+### Edit the setup.sh and change "db_endpoint" and "dbusername"
 ```sh
 vi setup.sh
 ```
