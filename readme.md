@@ -20,12 +20,12 @@ git clone https://github.com/xashy-devops/votingapp.git
 cd votingapp/
 ```
 
-### edit the setup.sql and change "specifyTheDatabaseName" and candidates names
+### Edit the setup.sql and change "specifyTheDatabaseName" and candidates names
 ```sh
 vi setup.sql
 ```
 
-### edit the setup.sh and change <db_endpoint> and <dbusername> 
+### Edit the setup.sh and change <db_endpoint> and <dbusername> 
 ```sh
 vi setup.sh
 ```
@@ -49,7 +49,7 @@ sudo mv <IMG_NAME> /var/www/html/myapp/png2.jpg
 ```
 
 
-### edit the signup, signin, and vote files with the Database information
+### Edit the signup, signin, and vote files with the Database information
 ```sh
 sudo vi signup.php
 ```
