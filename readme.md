@@ -43,11 +43,13 @@ chmod +x setup.sh && ./setup.sh
 
 ## Rename the first image png1.jpg 
 ##Note: Candidate 1 picture should be png 1
-sudo mv <IMG_NAME> /var/www/html/myapp/png1.jpg
+wget <INSERT_IMAGE_URL>
+sudo mv <INSERT_IMAGE_NAME> /var/www/html/myapp/png1.jpg
 
 ## Rename the second image png2.jpg 
 ##Note: Candidate 1 picture should be png 1
-sudo mv <IMG_NAME> /var/www/html/myapp/png2.jpg
+wget <INSERT_IMAGE_URL>
+sudo mv <INSERT_IMAGE_NAME> /var/www/html/myapp/png2.jpg
 
 ```
 
