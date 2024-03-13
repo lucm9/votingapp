@@ -54,5 +54,5 @@ sudo mv <IMG_NAME> /var/www/html/myapp/png2.jpg
 vi update_db.sh
 ```
 ```sh
-chmod +x update_db.sh && ./update_db.sh
+chmod +x update_db.sh && sudo ./update_db.sh
 ```
