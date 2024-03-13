@@ -18,10 +18,10 @@ sudo mkdir -p /var/www/html/myapp
 sudo chown -R www-data:www-data /var/www/html/myapp
 
 # Move your app's PHP files into the new directory
-sudo mv ~/votingapapp/signin.php /var/www/html/myapp/
-sudo mv ~/votingapapp/signup.php /var/www/html/myapp/
-sudo mv ~/votingapapp/vote.php /var/www/html/myapp/
-sudo mv ~/votingapapp/logout.php /var/www/html/myapp/
+sudo mv ~/votingapp/signin.php /var/www/html/myapp/
+sudo mv ~/votingapp/signup.php /var/www/html/myapp/
+sudo mv ~/votingapp/vote.php /var/www/html/myapp/
+sudo mv ~/votingapp/logout.php /var/www/html/myapp/
 
 # Replace placeholders
 mysql -h <db_endpoint> -u dbusername -p < ~/votingapp/setup.sql
