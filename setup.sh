@@ -24,4 +24,4 @@ sudo mv ~/votingapp/vote.php /var/www/html/myapp/
 sudo mv ~/votingapp/logout.php /var/www/html/myapp/
 
 # Replace placeholders
-mysql -h <db_endpoint> -u dbusername -p < ~/votingapp/setup.sql
+mysql -h <db_endpoint> -u <dbusername> -p < ~/votingapp/setup.sql
