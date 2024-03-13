@@ -14,7 +14,7 @@ sudo service apache2 restart
 sudo mkdir -p /var/www/html/myapp
 
 # Clone repo
-git clone https://github.com/Emmanuel-DevOps-AWS/votingapp.git
+git clone https://github.com/xashy-devops/votingapp.git
 
 # Change ownership of the app directory
 sudo chown -R www-data:www-data /var/www/html/myapp
