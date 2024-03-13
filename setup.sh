@@ -13,8 +13,6 @@ sudo service apache2 restart
 # Create a directory for your app
 sudo mkdir -p /var/www/html/myapp
 
-# Clone repo
-git clone https://github.com/xashy-devops/votingapp.git
 
 # Change ownership of the app directory
 sudo chown -R www-data:www-data /var/www/html/myapp
@@ -24,3 +22,6 @@ sudo mv ~/votingapapp/signin.php /var/www/html/myapp/
 sudo mv ~/votingapapp/signup.php /var/www/html/myapp/
 sudo mv ~/votingapapp/vote.php /var/www/html/myapp/
 sudo mv ~/votingapapp/logout.php /var/www/html/myapp/
+
+# Replace placeholders
+mysql -h <db_endpoint> -u dbusername -p < ~/votingapp/setup.sql
