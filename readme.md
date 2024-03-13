@@ -41,9 +41,12 @@ chmod +x setup.sh && ./setup.sh
 ## You can upload the images to a public S3 bucket and use WGET to download them into your server**
 ## Make sure to download images into the /var/www/html/myapp directory
 
-## Rename the first image png1.jpg
+## Rename the first image png1.jpg 
+##Note: Candidate 1 picture should be png 1
 sudo mv <IMG_NAME> /var/www/html/myapp/png1.jpg
-## Rename the second image png2.jpg
+
+## Rename the second image png2.jpg 
+##Note: Candidate 1 picture should be png 1
 sudo mv <IMG_NAME> /var/www/html/myapp/png2.jpg
 
 ```
