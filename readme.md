@@ -51,11 +51,8 @@ sudo mv <IMG_NAME> /var/www/html/myapp/png2.jpg
 
 ### Edit the signup, signin, and vote files with the Database information
 ```sh
-sudo vi signup.php
+vi update_db.sh
 ```
 ```sh
-sudo vi signin.php
-```
-```sh
-sudo vi vote.php
+chmod +x update_db.sh
 ```
