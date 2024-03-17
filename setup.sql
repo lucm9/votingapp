@@ -1,7 +1,8 @@
 -- Make sure to change the database name
-CREATE DATABASE IF NOT EXISTS specifyTheDatabaseName;
+CREATE DATABASE IF NOT EXISTS `votingdb`;
 -- Change the database name below as well
-USE specifyTheDatabaseName;
+USE votingdb;
+
 CREATE TABLE IF NOT EXISTS users (
     id INT AUTO_INCREMENT PRIMARY KEY,
     name VARCHAR(50) NOT NULL,
